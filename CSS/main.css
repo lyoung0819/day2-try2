@@ -1,0 +1,83 @@
+
+
+header {
+    text-align: center;
+}
+
+body {
+    text-align: center;    
+}
+
+.form {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.box {
+    border: .3px solid lightgray;
+    border-radius: 1%;
+    width: 400px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+#signin {
+    color:black;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.box-inner {
+    text-align: left;
+}
+
+form > input {
+    width: 400px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+}
+
+/* button styles */
+#button-continue {
+    background-color: orange;
+    color: black;
+    border: 1px solix lightgray;
+    text-align: center;
+    height: 25px;
+    width: 400px;
+}
+
+#button-create-account {
+    background-color: lightgrey;
+    color: black;
+    border: 1px solix black;
+    text-align: center;
+    height: 25px;
+    width: 400px;
+}
+
+
+#forgotpassword {
+    text-align: right;!important;
+    display: inline;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-links {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -13,17 +13,24 @@
 </header>
 
 <body>
-    <div>
-        <h2>Sign In</h2>
-        <form id="form">
+    <div class="box">
+        <div class="box-inner">
+        <h2 id="signin">Sign In</h2>
+        <form class="form">
             <label for="email">Email(phone or mobile accounts)</label>
-            <input type="text" placeholder="Enter Email"></input>
+            <p></p>
+            <input type="text" placeholder="Enter Email">
+        </form>
+        
+        <form class="form">
             <label for="password">Password</label> 
+            <p><a href="" id="forgotpassword">Forgot Password</a></p>
             <input type="text" placeholder="Enter Password"></input>
             <button type="submit" id="button-continue">Continue</button>
         </form>
 
-        <h4>Need Help?</h4>
+        <p a href="" class="link">Need Help?</p>
+        </div>
     </div>
 
     <div>
@@ -32,12 +39,19 @@
     </div>
 </body>
 
+<hr style="margin-top: 30px;">
+
+
 <footer>
-    <div>
-        <a href="">Conditions of use</a>
-        <a href="">Privacy Policy</a>
-        <a href="">Help</a>
+    <div class="footer">
+        <div class="footer-links">
+            <a href="" class="link">Conditions of use</a>
+            <a href="" class="link">Privacy Policy</a>
+            <a href="" class="link">Help</a>
+         </div>
+
+        <p>&copy; 1996-2020, Amazon.com inc, or its affiliates</p>
     </div>
-    <p>&copy; 1996-2020, Amazon.com inc, or its affiliates</p>
+    
 </footer>
 </html>
