@@ -32,6 +32,7 @@ body {
     width: 350px;
     height: 300px;
     margin: auto;
+    margin-bottom: 45px;
     padding: 10px;
 }
 
@@ -41,13 +42,25 @@ body {
     width: 400px;
     height: 350px;
     margin: auto;
-    padding: 50px;
+    padding: 65px;
+}
+
+.signin {
+    padding-left: 1vw;
 }
 
 #signin {
     color:black;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 3vh;
+}
+
+.form1-style > label {
+    font-size: small;
+}
+.form2-style > label {
+    font-size: small;
+    padding-left: 3vw;
 }
 
 .box-inner {
@@ -55,8 +68,9 @@ body {
 }
 
 form > input {
-    width: 400px;
+    width: 320px;
     height: 25px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -70,9 +84,10 @@ form > input {
     background-color: orange;
     color: black;
     border: 1px solix lightgray;
+    border-radius: 2px;
     text-align: center;
     height: 25px;
-    width: 400px;
+    width: 327px;
 }
 
 #button-create-account {
@@ -81,14 +96,24 @@ form > input {
     border: 1px solix black;
     text-align: center;
     height: 25px;
-    width: 400px;
+    width: 327px;
 }
 
 
 #forgotpassword {
-    position: absolute;
-    right: 575px;
-    display: inline;
+    position: fixed;
+    right: 37vw;
+    text-decoration: none;
+    color: rgb(90, 113, 227);
+    font-size: smaller;
+}
+
+.needhelplink > a {
+    position: fixed;
+    left: 37vw;
+    text-decoration: none;
+    color: rgb(90, 113, 227);
+    font-size: smaller;
 }
 
 .footer {
@@ -99,13 +124,24 @@ form > input {
 .footer-links {
     width: 350px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.footer-links > a {
+    font-size: x-small;
+    color: rgb(90, 113, 227);
 }
 
 .linebehindtext {
     border-top: 1px solid gray;
+    position: fixed;
+    bottom: 25vh;
+    width: 100%;
+    text-align: center;
+    font-size: smaller;
 }
 
 span {
