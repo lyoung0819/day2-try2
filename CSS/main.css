@@ -65,7 +65,8 @@ form > input {
 
 
 #forgotpassword {
-    text-align: right;!important;
+    position: absolute;
+    right: 575px;
     display: inline;
 }
 
@@ -80,4 +81,13 @@ form > input {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+}
+
+.linebehindtext {
+    border-top: 1px solid gray;
+}
+
+span {
+    background-color: white;
+    padding: 5px;
 }
