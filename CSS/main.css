@@ -74,6 +74,11 @@ form > input {
     margin-bottom: 20px;
 }
 
+form > a {
+    position: absolute;
+    margin-left: 10vw;
+}
+
 .link {
     text-decoration: none;
     color: blue;
@@ -101,19 +106,16 @@ form > input {
 
 
 #forgotpassword {
-    position: fixed;
-    right: 37vw;
     text-decoration: none;
     color: rgb(90, 113, 227);
     font-size: smaller;
 }
 
 .needhelplink > a {
-    position: fixed;
-    left: 37vw;
     text-decoration: none;
     color: rgb(90, 113, 227);
     font-size: smaller;
+    margin-right: 19vw;
 }
 
 .footer {
@@ -136,7 +138,6 @@ form > input {
 }
 
 .linebehindtext {
-    border-top: 1px solid gray;
     position: fixed;
     bottom: 25vh;
     width: 100%;
@@ -144,7 +145,20 @@ form > input {
     font-size: smaller;
 }
 
+
 span {
+    border-top: 1px solid gray;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
     padding: 5px;
+    align-items: center;
 }
+
+
+/* p.linebehindtext::after {
+
+} */
