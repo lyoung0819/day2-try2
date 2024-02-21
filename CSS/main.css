@@ -1,4 +1,17 @@
 
+@font-face {
+    font-family: AmazonType;
+    src: url(Amazon-Ember-Medium.ttf);
+    }
+@font-face {
+    font-family: AmazonLT;
+    src: url(AmazonEmber_Lt.ttf);
+}
+
+* {
+    font-family: AmazonLT;
+    margin: 0px;
+}
 
 header {
     text-align: center;
@@ -13,13 +26,21 @@ body {
     margin-bottom: 25px;
 }
 
+.box1 {
+    border: .3px solid lightgray;
+    border-radius: 1%;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
 .box {
     border: .3px solid lightgray;
     border-radius: 1%;
     width: 400px;
     height: 350px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding: 50px;
 }
 
