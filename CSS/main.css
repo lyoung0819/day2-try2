@@ -33,7 +33,7 @@ body {
     width: 350px;
     height: 300px;
     margin: auto;
-    margin-bottom: 45px;
+    margin-bottom: 1rem;
     padding: 5px;
 }
 
@@ -53,7 +53,7 @@ body {
 #signin {
     color:black;
     text-align: left;
-    margin-bottom: 3vh;
+    margin-bottom: .5rem;
 }
 
 .form1-style > label {
@@ -114,6 +114,7 @@ form > a {
     text-align: center;
     height: 25px;
     width: 327px;
+    margin-bottom: 2rem;
 }
 
 
@@ -133,6 +134,7 @@ form > a {
 .footer {
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 7rem;
 }
 
 .footer-links {
@@ -150,25 +152,30 @@ form > a {
 }
 
 .linebehindtext {
-    position: fixed;
-    bottom: 25vh;
-    width: 100%;
+    position: relative;
+    width: auto;
     text-align: center;
     font-size: smaller;
 }
 
+.linebehind {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 1rem;
+}
 
 span {
     border-top: 1px solid gray;
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    padding: 5px;
-    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    z-index: -1;
 }
+
+
+
 
 
 /* p.linebehindtext::after {
