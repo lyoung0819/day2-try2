@@ -115,6 +115,7 @@ form > a {
     height: 25px;
     width: 327px;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 
@@ -151,21 +152,23 @@ form > a {
     color: rgb(90, 113, 227);
 }
 
-.linebehindtext {
-    position: relative;
-    width: auto;
-    text-align: center;
-    font-size: smaller;
-}
 
 .linebehind {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    margin-bottom: 1rem;
+    position: relative;
+    width: 350px;
+    font-size: smaller;
+    margin: auto;
+}
+
+h4 {
+    background-color: #fff;
+    display: inline-block;
+    padding-left: .5rem;
+    padding-right:  .5rem;
 }
 
 span {
+    content: " ";
     border-top: 1px solid gray;
     position: absolute;
     width: 100%;
@@ -175,9 +178,4 @@ span {
 }
 
 
-
-
-
-/* p.linebehindtext::after {
-
-} */
+/* background-color: #fff; */
